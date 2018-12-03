@@ -1,6 +1,8 @@
 from database import Database
-from models.post import Post
+from menu import Menu
 
 Database.initialize()
 
+menu = Menu()
 
+menu.run_menu()
